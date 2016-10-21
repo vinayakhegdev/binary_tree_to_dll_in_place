@@ -44,7 +44,7 @@ tree_minimum(struct node *root) {
 
 void 
 convert_bin_dll(struct node *root, struct node **list) {
-   (*list) = (tree_minimum)(root); 
+   (*list) = tree_minimum(root); 
    (void) convert_util_bin_dll(root);
 }    
 
